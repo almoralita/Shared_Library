@@ -1,7 +1,5 @@
-//mail bcc: '', body: 'Prueba', cc: '', from: '', replyTo: '', subject: 'Prueba', to: 'angielizethmora@gmail.com'
-int useSomeLib(Helper helper) {
-    helper.prepare()
-    return helper.count()
+def call() {
+    git url: "https://github.com/almoralita/Shared_Library.git'
+    mail bcc: '', body: 'TEst', cc: '', from: '', replyTo: '', subject: 'Test', to: 'angielizethmora@gmail.com'
 }
 
-echo useSomeLib(new Helper('some text'))
