@@ -1,1 +1,1 @@
-git 'https://github.com/almoralita/Shared_Library.git'
+mail bcc: '', body: 'Prueba', cc: '', from: '', replyTo: '', subject: 'Prueba', to: 'angielizethmora@gmail.com'
