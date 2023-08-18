@@ -1,7 +1,10 @@
-import groovy.util.logging.Slf4j
-@Slf4j
-def call() {
-    //git url: "https://github.com/almoralita/Shared_Library.git'    
-    log.info "Starting to talk"
-    //mail bcc: '', body: 'TEst', cc: '', from: '', replyTo: '', subject: 'Test', to: 'angielizethmora@gmail.com'
-}
+import java.util.logging.ConsoleHandler
+import java.util.logging.FileHandler
+import java.util.logging.SimpleFormatter
+import java.util.logging.LogManager
+import jenkins.model.Jenkins
+
+// Log into the console
+def WebAppMainLogger = LogManager.getLogManager().getLogger("hudson.WebAppMain")
+WebAppMainLogger.addHandler (new ConsoleHandler())
+
