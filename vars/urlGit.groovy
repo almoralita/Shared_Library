@@ -1,3 +1,4 @@
+import groovy.util.logging.Slf4j
 def call() {
     //git url: "https://github.com/almoralita/Shared_Library.git'    
     log.info "Starting to talk"
